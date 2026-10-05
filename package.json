@@ -1,0 +1,20 @@
+{
+  "name": "besed-goods-website",
+  "version": "1.0.0",
+  "description": "BESED Goods Supplying Ltd - Premium B2B UK-Turkey Sourcing & Supply Website",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "build": "npm run build:pages",
+    "build:pages": "echo 'Pages are static, no build needed'",
+    "deploy": "wrangler pages deploy public",
+    "deploy:functions": "wrangler deploy"
+  },
+  "keywords": ["B2B", "sourcing", "Turkey", "UK", "supplier"],
+  "author": "BESED Goods Supplying Ltd",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.26.0"
+  }
+}
